@@ -8,7 +8,7 @@ app.use(cors());
 app.get("/session", async (req, res) => {
   try {
     const response = await fetch(
-      "https://api.wlai.vip/v1/realtime/sessions",
+      "https://api.openai.com/v1/realtime/sessions",
       {
         method: "POST",
         headers: {
